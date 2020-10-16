@@ -3,6 +3,7 @@
 using namespace std;
 class Punkt
 {
+	friend class Wektor;
 private:
 	float x;
 	float y;
@@ -13,4 +14,8 @@ public:
 	void dodaj(Punkt* p);//
 	void drukuj();
 	bool porownaj(Punkt& p); // metoda pomocnicza
+	bool operator==(Punkt& p);//przeciazenie
+	Punkt& operator+=(Punkt& p);
+	void operator=(Punkt& p);
+	Punkt& operator+(Punkt& p);
 };

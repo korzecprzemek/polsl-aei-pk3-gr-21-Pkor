@@ -24,12 +24,24 @@
     <ClCompile Include="Tablica.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="Wektor.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TablicaWektorow.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Punkt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Tablica.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Wektor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TablicaWektorow.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
