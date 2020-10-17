@@ -3,10 +3,10 @@
 #include "TablicaWektorow.h"
 int main()
 {
-	Punkt p1(1,5);
-	Punkt p2(2,3);
+	float TabX[] = {3,23,14,8};
+	float TabY[] = {4,19,7,11};
 
-	TablicaWektorow tab(5);
+	TablicaWektorow tab(TabX,TabY,4);
 	tab.drukuj();
 	//
 	//p1 = p1 + p2;
