@@ -10,7 +10,7 @@ Wektor::Wektor(float x, float y)
 	this->x = x;
 	this->y = y;
 	dlugosc = sqrt(x*x + y * y);
-	kat = atan(y / x);
+	kat = atan2(y,x)*180/ M_PI;
 }
 Wektor::Wektor(Wektor& u)
 {
