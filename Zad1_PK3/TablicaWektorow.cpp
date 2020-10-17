@@ -1,13 +1,4 @@
 #include "TablicaWektorow.h"
-//int dl;
-//Wektor* u;
-//TablicaWektorow(int dl);
-//TablicaWektorow(TablicaWektorow& tab);
-//~TablicaWektorow();
-//void dodaj(TablicaWektorow& tab);
-//void drukuj();
-//bool porownaj(TablicaWektorow& tab);
-//
 
 TablicaWektorow::TablicaWektorow(int dl)
 {

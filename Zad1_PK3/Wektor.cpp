@@ -1,10 +1,5 @@
 #include "Wektor.h"
 
-//Wektor(float dlugosc, float kat);
-//Wektor(Wektor& u);
-//Wektor(Wektor* u);
-//bool operator ==(Wektor& u);
-
 Wektor::Wektor(float x, float y)
 {
 	this->x = x;

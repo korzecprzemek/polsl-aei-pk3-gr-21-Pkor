@@ -13,6 +13,8 @@
 //Punkt& operator+(Punkt& p);
 class Wektor :public Punkt
 {
+	friend class TablicaWektorow;
+	friend class TabWektorowSort;
 private:
 	float dlugosc;
 	float kat;

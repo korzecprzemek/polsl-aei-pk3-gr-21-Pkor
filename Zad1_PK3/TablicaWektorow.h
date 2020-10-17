@@ -3,11 +3,12 @@
 
 class TablicaWektorow
 {
+	friend class TabWektorowSort;
 private:
 	int dl;
 	Wektor* u;
 public:
-	TablicaWektorow(int dl);
+	TablicaWektorow(int dl=0);
 	TablicaWektorow(TablicaWektorow& tab);
 	TablicaWektorow(float* x, float* y, int dl);
 	~TablicaWektorow();
