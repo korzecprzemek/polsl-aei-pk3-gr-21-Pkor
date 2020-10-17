@@ -1,3 +1,4 @@
+#define _USE_MATH_DEFINES
 #include "Punkt.h"
 #include <cmath>
 //Punkt(Punkt& p);
