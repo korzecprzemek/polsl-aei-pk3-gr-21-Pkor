@@ -1,13 +1,20 @@
 #include "Punkt.h"
 #include "Tablica.h"
 #include "TablicaWektorow.h"
+#include "TabWektorowSort.h"
 int main()
 {
 	float TabX[] = {3,23,14,8};
 	float TabY[] = {4,19,7,11};
 
 	TablicaWektorow tab(TabX,TabY,4);
+	cout << "Nieposortowana tablica: " << endl;
 	tab.drukuj();
+	cout << "Posortowana tablica: " << endl;
+	cout << "----------------------------------------" << endl;
+	TabWektorowSort tab1(tab);
+	tab1.drukuj();
+
 	//
 	//p1 = p1 + p2;
 	//p1.drukuj();
