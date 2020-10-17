@@ -23,6 +23,16 @@ TablicaWektorow::TablicaWektorow(TablicaWektorow& tab)
 		u[i].dodaj(tab.u[i]);
 	}
 }
+TablicaWektorow::TablicaWektorow(float* x, float* y, int dl)
+{
+	this->dl = dl;
+	this->u = new Wektor[dl];
+	for (int i = 0; i < this->dl; i++)
+	{
+		Wektor tmp(x[i], y[i]);
+		u[i].dodaj(tmp);
+	}
+}
 TablicaWektorow::~TablicaWektorow()
 {
 	delete u;

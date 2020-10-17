@@ -9,6 +9,7 @@ private:
 public:
 	TablicaWektorow(int dl);
 	TablicaWektorow(TablicaWektorow& tab);
+	TablicaWektorow(float* x, float* y, int dl);
 	~TablicaWektorow();
 	void dodaj(TablicaWektorow& tab);
 	void drukuj();
